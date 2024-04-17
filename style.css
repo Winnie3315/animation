@@ -1,0 +1,29 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+
+}
+.anim{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    /* animation:color 1s infinite alternate ; */
+}
+.animate{
+    animation:color 1s infinite alternate ;
+}
+@keyframes color {
+    from{
+        background-color: darkred;
+    }
+    to{
+        background-color: chartreuse;
+    }
+}
+
